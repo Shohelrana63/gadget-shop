@@ -72,6 +72,25 @@ nav .nav-link:hover{
     border-radius: 10px;
     box-shadow: 2px 5px 20px lightgray;
 }
+/* extra pic hover */
+.card-first:hover{
+  border-radius: 10px;
+    box-shadow: 2px 5px 20px lightgray;
+    
+}
+.card-img-top{
+  width: 100%;
+}
+.card-first img:hover{
+  transform: scale(1.1);
+  transition: transform 2s;
+}
+/* .card-img-top:hover img{
+  transform: scale(1.3);
+  transition: transform 2s;
+} */
+
+/* CATEGORIES */
 
 .category {
     padding-top: 100px;
@@ -181,4 +200,13 @@ li a{
 }
 .social{
   margin: 100px 190px;
+}
+
+/* contact */
+
+.contactStyle:hover{
+  
+  transform: scale(1.2);
+  transition: transform 2s;
+  
 }
